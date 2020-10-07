@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" 
 	xmlns:th="http://www.thymeleaf.org">
 <body>
-	<h1>Cadastrar Produto</h1>
+	<h1>Cadastrar produto</h1>
 	
 	<div th:each="erro : ${#fields.detailedErrors('${produto.*}')}">
 		<span th:text="${erro.message}"></span>
